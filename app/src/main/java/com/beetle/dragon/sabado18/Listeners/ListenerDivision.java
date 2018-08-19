@@ -16,6 +16,6 @@ public class ListenerDivision implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         Intent intent = new Intent(context,Activity2Activity.class);
-        Integer suma = Integer.valueOf(context.getEt1().getText().toString())+Integer.valueOf(context.getEt2().getText().toString());
+        Integer division = Integer.valueOf(context.getEt1().getText().toString()) % Integer.valueOf(context.getEt2().getText().toString());
     }
 }
