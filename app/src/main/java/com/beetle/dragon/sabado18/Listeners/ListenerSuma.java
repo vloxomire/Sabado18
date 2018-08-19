@@ -1,4 +1,21 @@
 package com.beetle.dragon.sabado18.Listeners;
 
-public class ListenerSuma {
+import android.content.Intent;
+import android.view.View;
+
+import com.beetle.dragon.sabado18.Interfaz.Activity2Activity;
+import com.beetle.dragon.sabado18.Interfaz.Sabado18Activity;
+
+public class ListenerSuma implements View.OnClickListener {
+    Sabado18Activity context;
+
+    public ListenerSuma(Sabado18Activity context) {
+        this.context = context;
+    }
+
+    @Override
+    public void onClick(View v) {
+        Intent intent = new Intent(context,Activity2Activity.class);
+        Integer suma = Integer.valueOf(context.getEt1().getText().toString()) + Integer.valueOf(context.getEt2().getText().toString());
+    }
 }
