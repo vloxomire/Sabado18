@@ -10,6 +10,14 @@ import com.beetle.dragon.sabado18.R;
 public class Sabado18Activity extends Activity {
     private EditText et1,et2;
     private Button suma, resta, division, multiplicacion;
+
+    public EditText getEt1() {
+        return et1;
+    }
+    public EditText getEt2() {
+        return et2;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
