@@ -16,8 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Interfaz.Activity2Activity" />
-        <activity android:name=".Interfaz.Activity3Activity"></activity>
+        <activity android:name=".Interfaz.Resultado" />
+        <activity android:name=".Interfaz.TercerActo"></activity>
     </application>
 
 </manifest>

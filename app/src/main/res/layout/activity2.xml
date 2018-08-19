@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Interfaz.Activity2Activity">
+    tools:context=".Interfaz.Resultado"
+    android:orientation="vertical">
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et3"/>
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Guardar"
         android:id="@+id/guardar"/>
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Pasar3"
-        android:id="@+id/pasar3"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fase3"
+        android:id="@+id/fase3"/>
 
-</RelativeLayout>
+</LinearLayout>

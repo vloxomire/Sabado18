@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.beetle.dragon.sabado18.R;
 
-public class Activity2Activity extends Activity {
+public class TercerActo extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity2);
+        setContentView(R.layout.activity3);
     }
 }
