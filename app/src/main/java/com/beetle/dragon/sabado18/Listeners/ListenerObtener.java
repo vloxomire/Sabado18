@@ -16,7 +16,7 @@ public class ListenerObtener implements View.OnClickListener{
     if (id < context.getControladorCalculadora().cantidadCalculadora()){
         if (context.getControladorCalculadora().cantidadCalculadora()!= 0){
             context.setUnaCalculadora(context.getControladorCalculadora().getCalculadora(id));
-            context.getEt3().setText(context.getUnaCalculadora().getResultado());
+            context.getEt3().setText(context.getUnaCalculadora().getResultado().toString());
         }else{
             Toast.makeText(context,"No hay valor",Toast.LENGTH_SHORT).show();
         }}else{
