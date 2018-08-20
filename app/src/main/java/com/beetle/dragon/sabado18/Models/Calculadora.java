@@ -7,6 +7,10 @@ public class Calculadora {
     this.resultado = resultado;
     }
 
+    public Calculadora() {
+
+    }
+
     public Integer getResultado() {
         return resultado;
     }
