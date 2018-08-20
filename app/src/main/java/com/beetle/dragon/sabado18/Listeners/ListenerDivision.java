@@ -18,6 +18,6 @@ public class ListenerDivision implements View.OnClickListener {
         Intent intent = new Intent(context,Resultado.class);
         Integer division = Integer.valueOf(context.getEt1().getText().toString()) % Integer.valueOf(context.getEt2().getText().toString());
         intent.putExtra("Resultado",division);
-        context.st
+        context.startActivity(intent);
     }
 }
