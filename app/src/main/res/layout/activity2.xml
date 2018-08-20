@@ -9,6 +9,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/et3"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:id="@+id/etId"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

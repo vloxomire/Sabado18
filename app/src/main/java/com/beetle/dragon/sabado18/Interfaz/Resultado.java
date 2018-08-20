@@ -14,7 +14,7 @@ import com.beetle.dragon.sabado18.Models.Calculadora;
 import com.beetle.dragon.sabado18.R;
 
 public class Resultado extends Activity {
-    private EditText et3;
+    private EditText et3, etId;
     private Button guardar, fase3, obtener;
     private Calculadora unaCalculadora;
     private ListenerGuardar listenerGuardar;
@@ -38,12 +38,21 @@ public class Resultado extends Activity {
         return controladorCalculadora;
     }
 
+    public EditText getEtId() {
+        return etId;
+    }
+
+    public void setEtId(EditText etId) {
+        this.etId = etId;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity2);
 
         et3=findViewById(R.id.et3);
+        etId=findViewById(R.id.etId);
         guardar=findViewById(R.id.guardar);
         fase3=findViewById(R.id.fase3);
         obtener=findViewById(R.id.obtener);
