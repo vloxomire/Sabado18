@@ -26,6 +26,10 @@ public class Resultado extends Activity {
         return et3;
     }
 
+    public void setEt3(EditText et3) {
+        this.et3 = et3;
+    }
+
     public Calculadora getUnaCalculadora() {
         return unaCalculadora;
     }
@@ -58,10 +62,10 @@ public class Resultado extends Activity {
         obtener=findViewById(R.id.obtener);
         listenerGuardar = new ListenerGuardar(this);
         listenerObtener = new ListenerObtener(this);
-        //listenerFase3 = new ListenerFase3(this);
+        listenerFase3 = new ListenerFase3(this);
         guardar.setOnClickListener(listenerGuardar);
         obtener.setOnClickListener(listenerObtener);
-        //fase3.setOnClickListener(listenerFase3);
+        fase3.setOnClickListener(listenerFase3);
         //Creo Bolsa para recibir las clases
         Bundle bolsaX = new Bundle();
         bolsaX= getIntent().getExtras();    //Guardo los datos pasado del Intent
